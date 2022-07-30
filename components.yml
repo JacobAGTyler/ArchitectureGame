@@ -1,0 +1,27 @@
+- name: database
+  image: db.png
+  colour: green
+  throughput: 100
+  latency: 0.1
+  cost: 1000
+
+- name: app_server
+  image: app.png
+  colour: blue
+  throughput: 200
+  latency: 0.2
+  cost: 2000
+
+- name: load_balancer
+  image: lb.png
+  colour: red
+  throughput: 300
+  latency: 0.3
+  cost: 3000
+
+- name: read_through_cache
+  image: cache.png
+  colour: yellow
+  throughput: 400
+  latency: 0.4
+  cost: 4000
