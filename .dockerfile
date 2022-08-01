@@ -4,6 +4,8 @@ FROM python:latest
 
 WORKDIR .
 
+RUN sudo apt-get install libcairo2-dev
+
 COPY requirements.txt requirements.txt
 
 RUN python3 -m pip install --upgrade pip

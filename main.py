@@ -1,21 +1,7 @@
 import yaml
 
-from dataclasses import dataclass
-
-
-@dataclass
-class Component:
-    name: str
-    image: str
-
-    throughput: int
-    latency: float
-    cost: float
-
-    colour: str = '#000000'
-
-    def __str__(self):
-        return f'{self.name}'
+from Component import Component
+from render import draw_svg_card
 
 
 def main():
@@ -25,6 +11,7 @@ def main():
     component: dict
     for component in components:
         c = Component(**component)
+        draw_svg_card(c)
         print(c)
 
 
