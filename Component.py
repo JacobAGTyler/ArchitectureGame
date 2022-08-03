@@ -6,6 +6,7 @@ from caseconverter import snakecase
 class Component:
     name: str
     image: str
+    level: int
 
     throughput: int
     latency: int
@@ -18,4 +19,4 @@ class Component:
         self.api_name = snakecase(self.name)
 
     def __str__(self):
-        return f'{self.name}'
+        return f'{self.name} - level {self.level}'

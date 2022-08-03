@@ -15,8 +15,8 @@
 - name: Load Balancer
   image: lb.png
   colour: #ffdda6
-  throughput: 300
-  latency: 30
+  throughput: 5000
+  latency: 10
   cost: 3000
 
 - name: Read-through Cache
