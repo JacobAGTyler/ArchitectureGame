@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="880" height="1080" viewBox="-220.0 -270.0 440 540">
+<defs>
+</defs>
+<path d="M-194.0,-250.0 h388 a6,6,0,0,1,6,6 v488 a6,6,0,0,1,-6,6 h-388 a6,6,0,0,1,-6,-6 v-488 a6,6,0,0,1,6,-6" stroke="#000000" stroke-width="1" id="card-outline" fill="#f38181" />
+<path d="M-175.0,-100.0 h350 a6,6,0,0,1,6,6 v188 a6,6,0,0,1,-6,6 h-350 a6,6,0,0,1,-6,-6 v-188 a6,6,0,0,1,6,-6" stroke="#000000" stroke-width="1" id="image" fill="#fff" />
+<path d="M-169.0,125.0 h150 a6,6,0,0,1,6,6 v88 a6,6,0,0,1,-6,6 h-150 a6,6,0,0,1,-6,-6 v-88 a6,6,0,0,1,6,-6" stroke="#000000" stroke-width="1" id="latency" fill="#fff" />
+<text x="-94" y="180.0" font-size="40" id="latency-text" lengthAdjust="spacingAndGlyphs" textLength="112" fill="#f38181" font-family="Verdana" text-anchor="middle" dy="0em">1 ms</text>
+<text x="-94" y="209.0" font-size="20" id="latency-title" lengthAdjust="spacingAndGlyphs" textLength="112" fill="#888" font-family="Verdana" text-anchor="middle" dy="0em">LATENCY</text>
+<path d="M19.0,125.0 h150 a6,6,0,0,1,6,6 v88 a6,6,0,0,1,-6,6 h-150 a6,6,0,0,1,-6,-6 v-88 a6,6,0,0,1,6,-6" stroke="#000000" stroke-width="1" id="throughput" fill="#fff" />
+<text x="94" y="180.0" font-size="40" id="throughput-text" lengthAdjust="spacingAndGlyphs" textLength="112" fill="#f38181" font-family="Verdana" text-anchor="middle" dy="0em">1 m/s</text>
+<text x="94" y="209.0" font-size="20" id="throughput-title" lengthAdjust="spacingAndGlyphs" textLength="112" fill="#888" font-family="Verdana" text-anchor="middle" dy="0em">THROUGHPUT</text>
+<text x="0" y="-195.0" font-size="40" id="header" lengthAdjust="spacingAndGlyphs" textLength="350" fill="#fff" font-family="Verdana" text-anchor="middle" dy="0em">TestComponent</text>
+</svg>

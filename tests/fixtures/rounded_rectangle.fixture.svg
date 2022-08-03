@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="200" height="200" viewBox="0 -200 200 200">
+<defs>
+</defs>
+<path d="M-40.0,-50.0 h80 a10,10,0,0,1,10,10 v80 a10,10,0,0,1,-10,10 h-80 a10,10,0,0,1,-10,-10 v-80 a10,10,0,0,1,10,-10" stroke="#222333" stroke-width="9" fill="#888888" />
+</svg>
