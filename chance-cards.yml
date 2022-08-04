@@ -1,5 +1,6 @@
 - title: Public Key Encryption Certificate Expires
   impact: Takes you half your round to fix it.
+  text: Overall throughput is reduced by 50% for one round.
   coded:
     - impacts: ALL
       multiplier: 0.5
@@ -9,6 +10,7 @@
 
 - title: Recursive Memory Leak
   impact: Slows all app servers running your code
+  text: All app servers have 25% additional latency for two rounds.
   coded:
     - impacts: App Server
       multiplier: 0.25
@@ -18,6 +20,7 @@
 
 - title: Database Outdated
   impact: Slows all database servers
+  text: All database servers have 10% additional latency for two rounds.
   coded:
     - impacts: Database
       multiplier: 0.1
@@ -27,6 +30,7 @@
 
 - title: Servers Deleted by Hosting Providers
   impact: Removes random Servers from your network for a round.
+  text: Randomly remove one server from your network for one round.
   coded:
     - impacts: RANDOM
       multiplier: 1
@@ -36,6 +40,7 @@
 
 - title: Miscellaneous Python Scripts being executed by Users
   impact: Slows all servers
+  text: App Servers AND database servers have 5% additional latency for one round.
   coded:
     - impacts: App Server
       multiplier: 0.05
@@ -46,4 +51,14 @@
       multiplier: 0.05
       effect: positive
       metric: latency
+      round-duration: 1
+
+- title: Marketing campaigns increase customer visits.
+  impact: READ score
+  text: READ scores are doubled for one round.
+  coded:
+    - impacts: ALL
+      multiplier: 2
+      effect: positive
+      metric: READ Score
       round-duration: 1

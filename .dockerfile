@@ -4,7 +4,9 @@ FROM python:latest
 
 WORKDIR .
 
-RUN sudo apt-get install libcairo2-dev
+RUN apt install libcairo2
+
+RUN apt install libcairo2-dev
 
 COPY requirements.txt requirements.txt
 
@@ -14,4 +16,6 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD [ "python3", "-m" , "main" ]
+CMD python3 -m main
+
+VOLUME Cards
